@@ -121,7 +121,7 @@ configurations.configureEach {
 }
 
 dependencies {
-    api enforcedPlatform("io.quarkus:quarkus-bom:${quarkusVersion}")
+    api platform("io.quarkus:quarkus-bom:${quarkusVersion}")
     api 'io.quarkus:quarkus-arc'
     api 'io.quarkus:quarkus-grpc'
     api 'io.quarkus:quarkus-smallrye-health'
